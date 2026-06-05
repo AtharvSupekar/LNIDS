@@ -7,12 +7,17 @@ import threading
 from datetime import datetime
 
 class JSONLogger:
-    def __init__(self, log_file="logs/alerts.json", max_queue_size=1000):
+    def __init__(self, max_queue_size=1000):
         """
         Initializes the asynchronous logging subsystem.
         """
         # 1. Save the file path as instance attribute for easy access throughout.
-        self.log_file = log_file
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        self.log_dir = os.path.join(base_dir, "logs")
+        self.log_file = os.path.join(self.log_dir, "alerts.json")
+
+        if not os.path.exists(self.log_dir):
+            os.makedirs(self.log_dir)
 
         # 2. Instantiate a bounded, thread-safe queue using max_queue_size
         # Note this is a blocking queue - so it blocks producers when full (to prevent over-allocation) and consumers when empty
@@ -29,18 +34,17 @@ class JSONLogger:
         The background consumer loop that continuously drains the queue
         and writes alerts to the local disk (file(s)) safely.
         """
-        # Ensure the log directory actually exists on disk
-        log_dir = os.path.dirname(self.log_file)
-        if log_dir and not os.path.exists(log_dir):
-            os.makedirs(log_dir)
-
-        # Open the active log file descriptor in append/read mode
-        f = open(self.log_file, "a+", encoding="utf-8")
+        try:
+            # Open the active log file descriptor in append/read mode
+            f = open(self.log_file, "a+", encoding="utf-8")
+        except OSError as e:
+            print(f"CRITICAL: Failed to open alert log channel: {e}", file=sys.stderr)
+            return
 
         # Explicitly cap the active log file at 10 MB to protect disk footprint
         max_bytes = 1024 * 100
 
-        while self.running:
+        while self.running or not self.alert_queue.empty():
             try:
                 # 1. Attempt to pop an alert from the queue with a 1.0 second timeout
                 alert = self.alert_queue.get(timeout=1)
@@ -61,9 +65,9 @@ class JSONLogger:
                         # Re-open a brand new, empty active alert file layer
                         f = open(self.log_file, "a+", encoding="utf-8")
 
-                        # Write the entry to the disk buffer and flush instantly
-                        f.write(json_str)
-                        f.flush()
+                    # Write the entry to the disk buffer and flush instantly
+                    f.write(json_str)
+                    f.flush()
 
                 except OSError as e:
                     print(f"CRITICAL: Log rotation failed due to OS Error: {e}", file=sys.stderr)
@@ -123,9 +127,13 @@ class JSONLogger:
         if not self.running:
             return
         # 1. Block and wait until every single item currently in the queue has completed processing.
-        self.alert_queue.join()
         self.running = False
 
+        try:
+            self.alert_queue.join()
+        except Exception:
+            pass
+
         if self.worker_thread:
-            self.worker_thread.join()
+            self.worker_thread.join(timeout=1)
 

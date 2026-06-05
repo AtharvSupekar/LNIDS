@@ -1,36 +1,49 @@
 import sys
 import time
 from src.logger import JSONLogger
+from src.engine import DetectionEngine
 from src.sniffer import PacketSniffer
 
 def main():
-    print("[+] Initializing Local Network Intrusion Detection System (LNIDS)...")
+    print("================================================================================")
+    print("                     LNIDS: LOCAL NETWORK INTRUSION DETECTION SYSTEM            ")
+    print("================================================================================")
+    print("[*] Launching system components...")
 
     # 1. Instantiate and start the asynchronous logging plane
-    logger = JSONLogger(log_file="logs/alerts.json")
+    logger = JSONLogger()
     logger.start()
-    print("[+] Asynchronous logging engine activated.")
+    print("[+] Asynchronous logging engine active (Output target: logs/alerts.json)")
 
-    # 2. Instantiate and start the live network ingestion plane
-    sniffer = PacketSniffer(logger_instance=logger)
+    # 2. Instantiate the Analytical Engine, passing it the logger reference
+    engine = DetectionEngine(logger_instance=logger)
+    print("[+] Analytical Engine Brain Plane mapped successfully.")
+
+    # 3. Instantiate and start the live network ingestion plane
+    sniffer = PacketSniffer(engine_instance=engine)
     sniffer.start()
-    print(f"[+] Network capture loop active on interface: '{sniffer.interface}'")
-    print("[+] Applied Kernel-Space BPF Filter: 'tcp or udp and not port 443'")
-    print("[+] Monitoring Traffic... Press Ctrl+C to halt execution cleanly. \n")
+    print("[+] Ingestion Sniffer active. Kernel BPF Filter compiled.")
+    print("[*] LNIDS fully operational. Monitoring loopback traffic... (Ctrl+C to exit)")
+    print("--------------------------------------------------------------------------------")
 
-    # 3. Main Control Thread Sleep Loop
+    # 4. Main Control Thread Sleep Loop
     try:
         while True:
-            time.sleep(1.0)
+            time.sleep(0.5)
     except KeyboardInterrupt:
-        print("\n[-] Keyboard interrupt detected. Initiating graceful shutdown sequence...")
+        print("\n--------------------------------------------------------------------------------")
+        print("[!] KeyboardInterrupt caught. Initiating clean system shutdown...")
 
-        # 4. Flush Memory queues and halt background workers safely
-        print("[-] Draining and flushing remaining memory queues to disk...")
+        print("[*] Releasing kernel driver ingestion hooks...")
+        sniffer.stop()
+
+        # Flush Memory queues and halt background workers safely
+        print("[*] Draining and flushing remaining memory queues to disk...")
         logger.stop()
 
         print("[+] All host thread resources cleanly deallocated.")
         print("[+] System offline. Exiting safely.")
+        print("================================================================================")
         sys.exit(0)
 
 

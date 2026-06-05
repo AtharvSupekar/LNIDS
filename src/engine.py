@@ -35,6 +35,7 @@ class DetectionEngine:
             "dest_port" : int(dest_port),
             "severity"  : severity,
         }
+
         self.logger.alert_queue.put(alert_payload)
 
     def evaluate(self, packet):
@@ -56,24 +57,33 @@ class DetectionEngine:
         src_ip = packet[IP].src
         dst_ip = packet[IP].dst
 
+        tcp_layer = packet.getlayer(TCP) if packet.haslayer(TCP) else None
+
         # 1. LAND ATTACK CHECK
         if src_ip == dst_ip:
-            if packet.haslayer(TCP):
-                if packet[TCP].sport == packet[TCP].dport:
+            if tcp_layer and packet[TCP].sport == packet[TCP].dport:
                     self._generate_alert("Land Attack Spoofing Loop", src_ip, packet[TCP].dport, "HIGH")
 
-            elif packet.haslayer(UDP):
-                if packet[UDP].sport == packet[UDP].dport:
-                    self._generate_alert("Land Attack Spoofing Loop", src_ip, packet[UDP].dport, "HIGH")
+            elif packet.haslayer(UDP) and packet[UDP].sport == packet[UDP].dport:
+                self._generate_alert("Land Attack Spoofing Loop", src_ip, packet[UDP].dport, "HIGH")
 
         # 2. TCP XMAS SCAN CHECK
         if packet.haslayer(TCP):
             # Convert Scapy flags to integer representation safely
-            flags_int = int(packet[TCP].flags)
+            flags_str = str(tcp_layer.flags)
 
             # Bitmask 0x29 checks for FIN (0x01) | PUSH (0x08) | URG (0x20)
-            if (flags_int & 0x29) == 0x29:
-                self._generate_alert("TCP XMAS Tree Scan", src_ip, int(packet[TCP].dport), "HIGH")
+            if 'F' in flags_str and 'P' in flags_str and 'U' in flags_str:
+                self._generate_alert("TCP XMAS Tree Scan", src_ip, int(tcp_layer.dport), "HIGH")
+
+            # LIVE PRODUCTION ALERTS TRACE WIRE: Catch unencrypted Port 80 traffic
+            if tcp_layer.dport == 80 or tcp_layer.sport == 80:
+                self._generate_alert(
+                    rule_name="Insecure Cleartext HTTP Traffic",
+                    source_ip=src_ip,
+                    dest_port=80,
+                    severity="LOW"
+                )
 
     def _evaluate_stateful(self, packet):
         """
@@ -103,10 +113,11 @@ class DetectionEngine:
             if len(self.udp_tracker[src_ip]) == 51:
                 self._generate_alert("UDP Volumetric Flood", src_ip, int(packet[UDP].dport), "MEDIUM")
 
+        tcp_layer = packet.getlayer(TCP) if packet.haslayer(TCP) else None
         # =====================================================================
         # TARGET VECTOR 2: TCP PORT SCANNING TRACKING
         # =====================================================================
-        if packet.haslayer(TCP):
+        if tcp_layer:
             dst_port = int(packet[TCP].dport)
 
             # 1. Initialize the port tracking deque if this is a new IP address
@@ -133,8 +144,8 @@ class DetectionEngine:
         # =====================================================================
         # TARGET VECTOR 3: TCP Backlog Exhaustion Vector
         # =====================================================================
-        if packet.haslayer(TCP):
-            flags = str(packet[TCP].flags)
+        if tcp_layer:
+            flags = str(tcp_layer.flags)
 
             # A. If it's a raw inbound initialization request (SYN only)
             if flags == "S":
