@@ -9,3 +9,256 @@
 {"timestamp": "2026-06-05T14:01:05.497036Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.154.1.143", "dest_port": 80, "severity": "LOW"}
 {"timestamp": "2026-06-05T14:01:05.497594Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.154.1.143", "dest_port": 80, "severity": "LOW"}
 {"timestamp": "2026-06-05T14:01:05.783958Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "34.223.124.45", "dest_port": 80, "severity": "LOW"}
+
+{"timestamp": "2026-06-06T14:03:17.845738Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:17.845816Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:18.847262Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:18.847610Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:18.950019Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "104.94.102.226", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:18.949534Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "104.94.102.226", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:18.950255Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:18.954616Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:18.958938Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:18.968393Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:19.047834Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "104.94.102.226", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:19.047875Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "104.94.102.226", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:19.051616Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "104.94.102.226", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:19.051691Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "104.94.102.226", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:19.053590Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "104.94.102.226", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:19.052921Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "104.94.102.226", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:19.053541Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:19.054065Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:19.060259Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:19.066224Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:03:19.136851Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "104.94.102.226", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.558047Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.559599Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.584458Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.48", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.588682Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.583764Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.48", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.586740Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.587800Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.592563Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.634851Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.48", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.629529Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.48", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.677835Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.685008Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.815784Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.815770Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.850265Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.48", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.850338Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.48", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.853687Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.48", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.853671Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.48", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.903892Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:07:53.904222Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:08:53.857833Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:08:53.859455Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:08:53.892816Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.48", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:08:53.894048Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:08:53.896823Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.48", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:08:53.903894Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:21:54.283797Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 64260, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:21:54.390893Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 64260, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:46:08.087586Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.088248Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.088408Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.089027Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.089218Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.090271Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.089992Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.091197Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.090703Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.091384Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.260030Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.125", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:46:08.873377Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.871328Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.871842Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.873178Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.875360Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.882782Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.885109Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.889352Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.891807Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:08.895107Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:11.229232Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.1", "dest_port": 56075, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:46:11.229400Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.1", "dest_port": 56075, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:46:13.049785Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.1", "dest_port": 59213, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:46:13.052295Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.1", "dest_port": 59213, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:46:18.980864Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.125", "dest_port": 22222, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:46:18.986871Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.125", "dest_port": 22222, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:46:19.572140Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:19.574684Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:19.573554Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:19.577016Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:19.760137Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:19.879958Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:20.291685Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:20.291821Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:21.058386Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:21.067259Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:22.848956Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:22.849275Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.812146Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.826527Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.818100Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.828406Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.832320Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.836595Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.840134Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.840983Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.845571Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.849506Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.851215Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.852253Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.853395Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.855255Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.861498Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "172.31.255.254", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.866195Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.874664Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.876737Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.879403Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:24.881766Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:25.920757Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:25.923989Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:32.371157Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:32.371231Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.518878Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.518861Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.520617Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.519962Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.520432Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.520880Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.521261Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.521631Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.522091Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.522796Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.522186Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.522655Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.523073Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.523662Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.524411Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.523482Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.524076Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.525250Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.526927Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.524517Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.527828Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.528965Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.524831Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.529587Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.530284Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.525395Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.525893Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.526346Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.527008Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.527747Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.528493Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.528958Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.529453Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.529963Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.530289Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.530883Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.531507Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.532114Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.532621Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.533186Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.533790Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.534428Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.534929Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:39.535426Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:41.950226Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:41.950208Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:45.171487Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:46:45.171487Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:47:10.770483Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:47:10.772418Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:47:24.594311Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:47:24.594325Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:47:24.595484Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:47:24.596051Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:47:24.598456Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:47:24.597023Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.125", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:47:24.600318Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:47:24.601428Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:47:42.160847Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.125", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:47:42.165430Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.125", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:47:42.251671Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.1", "dest_port": 50681, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:47:42.251864Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.1", "dest_port": 50681, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:47:43.974747Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 55229, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:47:44.101027Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 55229, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:47:49.579187Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 56613, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:48:02.015893Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.1", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T14:51:28.149669Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 55704, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:51:28.370166Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 55704, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:26.020159Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 60726, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:26.020211Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 60726, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:30.891821Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 61044, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:30.894032Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 61044, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:31.621374Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 51159, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:31.635648Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 51159, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:32.709993Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 53174, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:32.727767Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 53174, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:33.798540Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 61573, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:33.804046Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 61573, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:34.334848Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 65187, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:34.343196Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 65187, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:42.607553Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 53718, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:52:43.060626Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 53718, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:57:49.696940Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 51527, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T14:57:49.856483Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.1", "dest_port": 51527, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:35:56.583768Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.68.133.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.586682Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.68.133.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.685038Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "42.106.163.145", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.686125Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.68.133.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.685929Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "42.106.163.145", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.687289Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.68.133.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.688151Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.68.133.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.689082Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.68.133.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.794629Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "42.106.163.145", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.795211Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "42.106.163.145", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.838786Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "42.106.163.145", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.843936Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "42.106.163.145", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.845244Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "42.106.163.145", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.859180Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.68.133.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.878221Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "42.106.163.145", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.903440Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.68.133.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.908960Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "42.106.163.145", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:56.904568Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "42.106.163.145", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:35:58.088682Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.68.133.143", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:35:58.091128Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.68.133.143", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:36:11.942475Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.68.133.143", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:36:11.942564Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.68.133.143", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:37:23.036968Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.244.29.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.037084Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.244.29.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.089271Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.192", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.089271Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.192", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.090532Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.244.29.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.090309Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.244.29.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.091250Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.244.29.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.091692Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.244.29.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.187442Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.192", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.188563Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.192", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.197614Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.192", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.212033Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.244.29.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.213384Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.244.29.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.214199Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.192", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.224908Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.244.29.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.228858Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "10.244.29.143", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.231772Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.192", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:23.231703Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "23.205.80.192", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-06-06T15:37:25.524823Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.143", "dest_port": 5353, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:37:25.528001Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.143", "dest_port": 5353, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:37:26.367586Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.143", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:37:26.367527Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.143", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:37:35.100502Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.143", "dest_port": 5353, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:37:35.101971Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.143", "dest_port": 5353, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:37:38.451336Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.143", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:37:38.452965Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.143", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:40:35.918981Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.143", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:40:35.968094Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.10", "dest_port": 50713, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:40:40.680579Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.143", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:40:40.735228Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.10", "dest_port": 61548, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:40:41.945166Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.143", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:40:42.039429Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.10", "dest_port": 56719, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:40:43.200572Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.143", "dest_port": 53, "severity": "MEDIUM"}
+{"timestamp": "2026-06-06T15:40:43.253439Z", "rule_name": "UDP Volumetric Flood", "source_ip": "10.244.29.10", "dest_port": 65051, "severity": "MEDIUM"}
