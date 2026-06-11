@@ -114,7 +114,6 @@ class LNIDSAttackSimulator:
 
 
 
-
 if __name__ == "__main__":
     simulator = LNIDSAttackSimulator()
     simulator.run_menu_loop()
