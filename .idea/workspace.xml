@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3606353-4c03-47e0-a72b-c6aaa04b92c1" name="Changes" comment="1st Successful Integration test and debugging">
+      <change beforePath="$PROJECT_DIR$/.idea/LNIDS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LNIDS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/alerts.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/alerts.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sniffer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/sniffer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/attack_simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/attack_simulator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +41,65 @@
     &quot;accountId&quot;: &quot;b4bd837a-923e-4fda-929c-d185055f481e&quot;
   }
 }</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000000000000002" />
+      <entry key="MS500" value="1.0011421754531757" />
+      <entry key="S2" value="1.1838372567012059" />
+      <entry key="S5" value="1.5096949668133934" />
+      <entry key="S10" value="1.7551067314352358" />
+      <entry key="S30" value="2.258797814798732" />
+      <entry key="S60" value="2.680920400110015" />
+      <entry key="M2" value="3.746645849448441" />
+      <entry key="M5" value="11.351616152985109" />
+      <entry key="M10" value="25.286406559665423" />
+      <entry key="M15" value="39.06103694871723" />
+      <entry key="M30" value="81.32781057349945" />
+      <entry key="H1" value="146.24745619026254" />
+      <entry key="H2" value="219.08864521693832" />
+      <entry key="H4" value="283.2262299744781" />
+      <entry key="D1" value="366.37874370068744" />
+      <entry key="W1" value="384.78449590459144" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.117507576314871E-86" />
+      <entry key="S5" value="5.740197166101477E-35" />
+      <entry key="S10" value="1.0571381134705447E-17" />
+      <entry key="S30" value="5.770620129816014E-6" />
+      <entry key="S60" value="0.006211135133182368" />
+      <entry key="M2" value="0.23118764824366755" />
+      <entry key="M5" value="2.4142540509581036" />
+      <entry key="M10" value="6.206671480017144" />
+      <entry key="M15" value="9.570615717393018" />
+      <entry key="M30" value="18.688343599477445" />
+      <entry key="H1" value="31.404939483722472" />
+      <entry key="H2" value="44.10900296800975" />
+      <entry key="H4" value="53.948272212515896" />
+      <entry key="D1" value="65.2634402476611" />
+      <entry key="W1" value="67.59760356304396" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8827029962906566" />
+      <entry key="MS500" value="0.9764679452944602" />
+      <entry key="S2" value="1.1764117774813956" />
+      <entry key="S5" value="1.505862745523812" />
+      <entry key="S10" value="1.7528748536053023" />
+      <entry key="S30" value="2.257860739003161" />
+      <entry key="S60" value="2.6864316714093386" />
+      <entry key="M2" value="3.974297408472974" />
+      <entry key="M5" value="13.750113851657781" />
+      <entry key="M10" value="31.47216619465612" />
+      <entry key="M15" value="48.609936571664086" />
+      <entry key="M30" value="99.99416614152501" />
+      <entry key="H1" value="177.6330575661614" />
+      <entry key="H2" value="263.1836964515773" />
+      <entry key="H4" value="337.1658752778543" />
+      <entry key="D1" value="431.6404339780919" />
+      <entry key="W1" value="452.3818403640802" />
+    </decayedShown>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -58,8 +121,19 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager" selected="Python.attack_simulator">
@@ -76,6 +150,9 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/attack_simulator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -98,6 +175,9 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -117,7 +197,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-b3ae9b5d7125-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.439" />
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
       </set>
     </attachedChunks>
   </component>
@@ -128,6 +208,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1780159493411</updated>
+      <workItem from="1781534313374" duration="42000" />
+      <workItem from="1781534378874" duration="2115000" />
+      <workItem from="1782035991550" duration="5801000" />
+      <workItem from="1782735395955" duration="7285000" />
     </task>
     <task id="LOCAL-00001" summary="Project - Basic Structure Creation&#10;Logger Module 1st Iteration">
       <option name="closed" value="true" />
@@ -171,6 +255,26 @@
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project - Basic Structure Creation&#10;Logger Module 1st Iteration" />

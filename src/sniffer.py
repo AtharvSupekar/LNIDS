@@ -4,7 +4,7 @@ from scapy.all import sniff
 from scapy.layers.inet import IP, TCP, UDP
 
 class PacketSniffer:
-    def __init__(self, engine_instance, interface = "Loopback Pseudo-Interface 1", bpf_filter = "tcp or udp and not port 443"):
+    def __init__(self, engine_instance, interface = "Loopback Pseudo-Interface 1", bpf_filter = "(tcp or udp) and not port 443"):
         """
         Initializes the live network ingestion plane.
         """
@@ -69,11 +69,11 @@ class PacketSniffer:
                     tcp_layer = packet.getlayer(TCP)
                     if tcp_layer:
                         flags_str = str(packet[TCP].flags) if packet[TCP].flags else "N/A"
-                        print(f"[*] Ingested: TCP | Source: {src_ip} | Target Port: {packet[TCP].dport} | Flags: {flags_str}")
+                        print(f"[*] Ingested: TCP | Source: {src_ip:<15} | Target Port: {packet[TCP].dport:<5} | Flags: {flags_str}")
                 elif packet.haslayer(UDP):
                     udp_layer = packet.getlayer(UDP)
                     if udp_layer:
-                        print(f"[*] Ingested: UDP | Source: {src_ip} | Target Port: {packet[TCP].dport} | Flags: N/A")
+                        print(f"[*] Ingested: UDP | Source: {src_ip:<15} | Target Port: {packet[TCP].dport:<5} | Flags: N/A")
 
             except Exception as e:
                 pass

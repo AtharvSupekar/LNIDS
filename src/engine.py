@@ -62,19 +62,22 @@ class DetectionEngine:
         # 1. LAND ATTACK CHECK
         if src_ip == dst_ip:
             if tcp_layer and packet[TCP].sport == packet[TCP].dport:
-                    self._generate_alert("Land Attack Spoofing Loop", src_ip, packet[TCP].dport, "HIGH")
+                self._generate_alert("Land Attack Spoofing Loop", src_ip, packet[TCP].dport, "HIGH")
+                return
 
             elif packet.haslayer(UDP) and packet[UDP].sport == packet[UDP].dport:
                 self._generate_alert("Land Attack Spoofing Loop", src_ip, packet[UDP].dport, "HIGH")
+                return
 
         # 2. TCP XMAS SCAN CHECK
-        if packet.haslayer(TCP):
+        if tcp_layer:
             # Convert Scapy flags to integer representation safely
             flags_str = str(tcp_layer.flags)
 
             # Bitmask 0x29 checks for FIN (0x01) | PUSH (0x08) | URG (0x20)
             if 'F' in flags_str and 'P' in flags_str and 'U' in flags_str:
                 self._generate_alert("TCP XMAS Tree Scan", src_ip, int(tcp_layer.dport), "HIGH")
+                return
 
             # LIVE PRODUCTION ALERTS TRACE WIRE: Catch unencrypted Port 80 traffic
             if tcp_layer.dport == 80 or tcp_layer.sport == 80:

@@ -20,7 +20,7 @@ def main():
     print("[+] Analytical Engine Brain Plane mapped successfully.")
 
     # 3. Instantiate and start the live network ingestion plane
-    sniffer = PacketSniffer(engine_instance=engine, interface="Wi-Fi")
+    sniffer = PacketSniffer(engine_instance=engine)
     sniffer.start()
     print("[+] Ingestion Sniffer active. Kernel BPF Filter compiled.")
     print("[*] LNIDS fully operational. Monitoring loopback traffic... (Ctrl+C to exit)")
