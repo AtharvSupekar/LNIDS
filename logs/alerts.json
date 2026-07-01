@@ -1,2 +1,8 @@
-{"timestamp": "2026-06-29T14:02:41.259061Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.127", "dest_port": 9999, "severity": "MEDIUM"}
-{"timestamp": "2026-06-29T14:10:45.750441Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.127", "dest_port": 9999, "severity": "MEDIUM"}
+{"timestamp": "2026-07-01T14:51:35.264881Z", "rule_name": "Land Attack Spoofing Loop", "source_ip": "192.168.8.127", "dest_port": 12435, "severity": "HIGH"}
+{"timestamp": "2026-07-01T14:51:35.265806Z", "rule_name": "Land Attack Spoofing Loop", "source_ip": "192.168.8.127", "dest_port": 12435, "severity": "HIGH"}
+{"timestamp": "2026-07-01T14:51:36.269043Z", "rule_name": "TCP XMAS Tree Scan", "source_ip": "192.168.8.127", "dest_port": 80, "severity": "HIGH"}
+{"timestamp": "2026-07-01T14:51:36.271100Z", "rule_name": "Insecure Cleartext HTTP Traffic", "source_ip": "192.168.8.127", "dest_port": 80, "severity": "LOW"}
+{"timestamp": "2026-07-01T14:51:37.332700Z", "rule_name": "UDP Volumetric Flood", "source_ip": "192.168.8.127", "dest_port": 9999, "severity": "MEDIUM"}
+{"timestamp": "2026-07-01T14:51:38.687440Z", "rule_name": "TCP Port Scan", "source_ip": "192.168.8.127", "dest_port": 2041, "severity": "MEDIUM"}
+{"timestamp": "2026-07-01T14:51:38.693438Z", "rule_name": "TCP SYN Flood DoS", "source_ip": "192.168.8.127", "dest_port": 2006, "severity": "HIGH"}
+{"timestamp": "2026-07-01T14:51:38.694243Z", "rule_name": "TCP SYN Flood DoS", "source_ip": "192.168.8.127", "dest_port": 12435, "severity": "HIGH"}

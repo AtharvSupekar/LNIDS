@@ -87,6 +87,7 @@ class DetectionEngine:
                     dest_port=80,
                     severity="LOW"
                 )
+                return
 
     def _evaluate_stateful(self, packet):
         """
@@ -117,6 +118,7 @@ class DetectionEngine:
                 self._generate_alert("UDP Volumetric Flood", src_ip, int(packet[UDP].dport), "MEDIUM")
 
         tcp_layer = packet.getlayer(TCP) if packet.haslayer(TCP) else None
+
         # =====================================================================
         # TARGET VECTOR 2: TCP PORT SCANNING TRACKING
         # =====================================================================
@@ -150,17 +152,25 @@ class DetectionEngine:
         if tcp_layer:
             flags = str(tcp_layer.flags)
 
-            # A. If it's a raw inbound initialization request (SYN only)
-            if flags == "S":
+            # Evaluate the velocity of inbound request initializations ('S')
+            # independently of the host stack's automated response packet path
+            if "S" in flags:
                 if src_ip not in self.syn_tracker:
                     self.syn_tracker[src_ip] = deque()
 
                 self.syn_tracker[src_ip].append(current_time)
 
-            # B. If it's a completing handshake acknowledgement packet (ACK)
-            elif "A" in flags:
-                if src_ip in self.syn_tracker and self.syn_tracker[src_ip]:
-                    self.syn_tracker[src_ip].popleft()
+            # # A. If it's a raw inbound initialization request (SYN only)
+            # if flags == "S":
+            #     if src_ip not in self.syn_tracker:
+            #         self.syn_tracker[src_ip] = deque()
+            #
+            #     self.syn_tracker[src_ip].append(current_time)
+            #
+            # # B. If it's a completing handshake acknowledgement packet (ACK)
+            # elif "A" in flags:
+            #     if src_ip in self.syn_tracker and self.syn_tracker[src_ip]:
+            #         self.syn_tracker[src_ip].popleft()
 
             # C. Slide the temporal window for this specific host node
             if src_ip in self.syn_tracker:
