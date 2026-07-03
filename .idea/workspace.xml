@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3606353-4c03-47e0-a72b-c6aaa04b92c1" name="Changes" comment="Land Attack, XMas and UDP Flood Testing implemented">
+    <list default="true" id="f3606353-4c03-47e0-a72b-c6aaa04b92c1" name="Changes" comment="Improved attack_simulator.py UI and completed all the necessary tests in attack_simulator.py">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/alerts.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/alerts.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/attack_simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/attack_simulator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,61 +37,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000001857121969" />
-      <entry key="S5" value="1.005099600687753" />
-      <entry key="S10" value="1.0714114885318167" />
-      <entry key="S30" value="1.4172587257324105" />
-      <entry key="S60" value="1.854727139634512" />
-      <entry key="M2" value="3.890087785138705" />
-      <entry key="M5" value="13.618620952588255" />
-      <entry key="M10" value="30.93787723508893" />
-      <entry key="M15" value="46.94758834527437" />
-      <entry key="M30" value="89.06677501897889" />
-      <entry key="H1" value="159.9111659195584" />
-      <entry key="H2" value="270.1234276805424" />
-      <entry key="H4" value="398.3106715385021" />
-      <entry key="D1" value="606.4466619046685" />
-      <entry key="W1" value="658.6564316515746" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.453495653219122E-209" />
+      <entry key="S2" value="1.1512579180940464E-52" />
+      <entry key="S5" value="2.535496507223031E-21" />
+      <entry key="S10" value="7.11903196153908E-11" />
+      <entry key="S30" value="7.148804605822857E-4" />
+      <entry key="S60" value="0.0531570805400824" />
+      <entry key="M2" value="0.5631205672533001" />
+      <entry key="M5" value="3.1560458726927036" />
+      <entry key="M10" value="10.75470683144697" />
+      <entry key="M15" value="21.618943646476747" />
+      <entry key="M30" value="58.963211368414676" />
+      <entry key="H1" value="130.05467723734182" />
+      <entry key="H2" value="244.60799529093617" />
+      <entry key="H4" value="381.38354917818236" />
+      <entry key="D1" value="609.4454608501048" />
+      <entry key="W1" value="667.5654878161305" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.9862360195941027E-222" />
-      <entry key="S2" value="3.7542013759460497E-56" />
-      <entry key="S5" value="6.851539938189838E-23" />
-      <entry key="S10" value="9.188937230764241E-12" />
-      <entry key="S30" value="3.0076025922163316E-4" />
-      <entry key="S60" value="0.02436919234237929" />
-      <entry key="M2" value="0.2784208429337963" />
-      <entry key="M5" value="2.799925139826889" />
-      <entry key="M10" value="8.099108575192892" />
-      <entry key="M15" value="12.334271049931283" />
-      <entry key="M30" value="21.613699839016014" />
-      <entry key="H1" value="35.88959610046756" />
-      <entry key="H2" value="57.29820269374096" />
-      <entry key="H4" value="80.78325544261378" />
-      <entry key="D1" value="116.09279977198423" />
-      <entry key="W1" value="124.50964860358846" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000007576316834" />
+      <entry key="S2" value="1.0295028880984454" />
+      <entry key="S5" value="1.244312570341117" />
+      <entry key="S10" value="1.4942798502276995" />
+      <entry key="S30" value="1.7906621859293659" />
+      <entry key="S60" value="1.8891918739175046" />
+      <entry key="M2" value="1.9430393522198557" />
+      <entry key="M5" value="2.078273765278527" />
+      <entry key="M10" value="3.5302821045469677" />
+      <entry key="M15" value="6.074175721465607" />
+      <entry key="M30" value="14.42999727649371" />
+      <entry key="H1" value="29.219276373048707" />
+      <entry key="H2" value="51.900177172121566" />
+      <entry key="H4" value="77.38819290185721" />
+      <entry key="D1" value="116.76314552499643" />
+      <entry key="W1" value="126.30492021115522" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.7010056621928164E-7" />
-      <entry key="MS500" value="0.04856295429900309" />
-      <entry key="S2" value="0.4694363987229565" />
-      <entry key="S5" value="0.7420530005768667" />
-      <entry key="S10" value="0.9151053255476793" />
-      <entry key="S30" value="1.3348697868969743" />
-      <entry key="S60" value="1.8269505029533055" />
-      <entry key="M2" value="4.1354405441110735" />
-      <entry key="M5" value="16.393075566623228" />
-      <entry key="M10" value="39.012170151722565" />
-      <entry key="M15" value="59.25812822414515" />
-      <entry key="M30" value="110.65909757960324" />
-      <entry key="H1" value="195.78150397594032" />
-      <entry key="H2" value="327.4051900232146" />
-      <entry key="H4" value="479.0819039322395" />
-      <entry key="D1" value="722.5365005985833" />
-      <entry key="W1" value="783.1656246519401" />
+      <entry key="MS100" value="4.530406404507599E-5" />
+      <entry key="MS500" value="0.13527856742223485" />
+      <entry key="S2" value="0.6328815360655962" />
+      <entry key="S5" value="1.0524399403326923" />
+      <entry key="S10" value="1.3882888693499273" />
+      <entry key="S30" value="1.7527799778543562" />
+      <entry key="S60" value="1.9225366813672975" />
+      <entry key="M2" value="2.49606378696394" />
+      <entry key="M5" value="5.229193870872961" />
+      <entry key="M10" value="14.277995691704493" />
+      <entry key="M15" value="27.683663555524195" />
+      <entry key="M30" value="73.38003532523537" />
+      <entry key="H1" value="159.25888203954173" />
+      <entry key="H2" value="296.4936138189045" />
+      <entry key="H4" value="458.76039928569094" />
+      <entry key="D1" value="726.205658436114" />
+      <entry key="W1" value="793.8699501970734" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -108,30 +106,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.attack_simulator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.attack_simulator.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python.attack_simulator">
     <configuration name="attack_simulator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LNIDS" />
@@ -209,7 +208,8 @@
       <workItem from="1782035991550" duration="5801000" />
       <workItem from="1782735395955" duration="8350000" />
       <workItem from="1782824841321" duration="7000000" />
-      <workItem from="1782913222489" duration="3345000" />
+      <workItem from="1782913222489" duration="3379000" />
+      <workItem from="1783092056785" duration="2321000" />
     </task>
     <task id="LOCAL-00001" summary="Project - Basic Structure Creation&#10;Logger Module 1st Iteration">
       <option name="closed" value="true" />
@@ -259,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782743143751</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Improved attack_simulator.py UI and completed all the necessary tests in attack_simulator.py">
+      <option name="closed" value="true" />
+      <created>1782917750845</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1782917750846</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +297,7 @@
     <MESSAGE value="Engine Module 1st Iteration" />
     <MESSAGE value="1st Successful Integration test and debugging" />
     <MESSAGE value="Land Attack, XMas and UDP Flood Testing implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Land Attack, XMas and UDP Flood Testing implemented" />
+    <MESSAGE value="Improved attack_simulator.py UI and completed all the necessary tests in attack_simulator.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved attack_simulator.py UI and completed all the necessary tests in attack_simulator.py" />
   </component>
 </project>
